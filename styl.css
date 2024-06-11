@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: palevioletred;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+}
+span{
+    color: yellow;
+}
+.ota{
+    background-color: yellow;
+    padding: 14px 50px;
+}
+.ota2{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.qora{
+background-color: black;
+width: 300px;
+text-align: center;
+color: aliceblue;
+}
+.ota3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding-top: 23px;
+     
+}
